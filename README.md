@@ -1,3 +1,6 @@
+# My README
+This Repo is being used only for storing my Mbed projects for school.
+
 ![](./resources/official_armmbed_example_badge.png)
 # Blinky Mbed OS example
 
@@ -70,5 +73,3 @@ If you have problems, you can review the [documentation](https://os.mbed.com/doc
 The software is provided under Apache-2.0 license. Contributions to this project are accepted under the same license. Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for more info.
 
 This project contains code from other projects. The original license text is included in those source files. They must comply with our license guide.
-
-öawjbdaöwjdbaw
