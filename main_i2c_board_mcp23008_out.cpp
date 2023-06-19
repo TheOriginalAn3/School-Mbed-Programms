@@ -25,8 +25,17 @@ int main() {
   lcd.printf("Bitmuster");
   mcp23008_init();
   while (true) {
+      char bitmuster;
     for (int i = 0; i < 8; i++) {
-      char bitmuster = 0x01 << i;
+      bitmuster = 0x01 << i;
+      mcp23008_output(bitmuster);
+      sleep(500ms);
+    }
+    for (int i = 0; i < 8; i++) {
+      bitmuster = bitmuster >> 1;
+      if (bitmuster == 0x01) {
+          break;
+      }
       mcp23008_output(bitmuster);
       sleep(500ms);
     }
